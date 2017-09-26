@@ -1,0 +1,111 @@
+@import "equstar_variables";
+
+.menu {
+	.navbar-header {
+		.navbar-brand {
+			height: 100%;
+
+			img {
+				height: 100%;
+				width: 100%;
+			}
+		}
+
+		.navbar-toggle {
+			margin-top: 25px;
+
+			&.cart {
+				border: none;
+			}
+		}
+	}
+
+	.nav {
+		&.navbar-nav {
+			margin-left: 20px;
+			margin-top: 20px;
+
+			li {
+				a {
+					text-transform: uppercase;
+				}
+
+				&.separator {
+					padding: 10px 0;
+			    border-right: 1px solid #ccc;
+			    margin-top: 13px;
+				}
+			}
+		}
+	}
+}
+
+.foot {	
+	background-color: $equstar-foot-bg;
+	padding: 10px 0 5px 50px;
+
+	h6 {
+		color: $equstar-foot-cl;
+		font-weight: bold;
+		margin-bottom: 25px;
+		font-size: 1em;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+
+		li {
+			margin-bottom: 5px;
+			a {
+				color: $equstar-foot-cl;
+
+				&:hover {
+					color: $equstar-foot-hover;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	.logo {
+		display: block;
+	}
+
+	.social-networks {
+		display: inline-block;
+		color: $equstar-foot-cl;
+    font-size: 1.2em;
+    padding: 5px;
+    margin-top: 10px;
+	}
+
+	#suscribe-form {
+		padding-right: 15px;
+	}
+
+	.suscribe-message {
+		margin-top: 5px;
+		color: $equstar-foot-cl;
+		display: none;
+	}
+
+	.rights {
+		color: #fff;
+    margin-top: 70px;
+    display: block;
+	}
+}
+
+.wrapper {
+	margin-top: 90px;
+	min-height: 600px;
+
+	.page-error {
+		text-align: center;
+
+		h4 {
+			margin: 100px 0 30px;
+		}
+	}
+}
