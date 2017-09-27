@@ -12,11 +12,11 @@
     ]); ?>
    </script>
 </head>
-<body>
+<body>	
 	@include('layouts.header')
-	<div class="container-fluid wrapper" id="app">		
-		@include('layouts.cart')
+	<div class="container-fluid wrapper" id="app">				
 		@yield('content')    
+		@include('layouts.cart')
 	</div>
 	@include('layouts.footer')
 	@include('layouts.scripts')
